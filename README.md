@@ -10,7 +10,7 @@ prerequisite : You need to have opengl and dev libraries for open gl like lgdi32
   gcc chip8.c -o CHIP8.exe -I. -L. -lraylib -lopengl32 -lgdi32 -lwinmm -static-libgcc.\
 **.Or you can run the .exe file directly from the terminal by pasting this command.\
   .\CHIP8.exe [ROM file goes here with .ch8 extension].\
-  you can download roms from here: https://github.com/dmatlack/chip8/tree/master/roms.\
+  you can download roms from here: https://github.com/dmatlack/chip8/tree/master/roms.
 3.Run the file and it should work.\
 *The OS close button does not work now so press escape to close .\
 

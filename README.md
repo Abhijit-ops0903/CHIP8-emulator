@@ -12,7 +12,6 @@ prerequisite : You need to have opengl and dev libraries for open gl like lgdi32
   .\CHIP8.exe [ROM file goes here with .ch8 extension].\
   you can download roms from here: https://github.com/dmatlack/chip8/tree/master/roms.
 3.Run the file and it should work.\
-*The OS close button does not work now so press escape to close .\
 
 #DEMO:
 1.Tetris

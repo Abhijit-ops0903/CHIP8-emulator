@@ -716,9 +716,9 @@ int main(int argc, char* argv[]){
 
     InitWindow(VIDEO_WIDTH * VIDEO_SCALE, VIDEO_HEIGHT * VIDEO_SCALE, "Chip8 emulator");
     SetTargetFPS(60);
-    bool noclosewindow = true;
+    //bool noclosewindow = true;
 
-    while(noclosewindow){
+    while(!WindowShouldClose()){
 
         for (uint8_t i = 0; i<INSTRUCTIONS_PER_FRAME; i++){
             execute_instruction(CHIP8);
@@ -821,9 +821,6 @@ int main(int argc, char* argv[]){
         }
         else{
             CHIP8->keypad[0xF] = 0;
-        }
-        if (IsKeyPressed(KEY_ESCAPE)){
-            noclosewindow = false;
         }
         //--------------------------------------------------
 
